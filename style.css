@@ -2,6 +2,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 h1 {
     font-size: 4rem;
@@ -10,6 +11,7 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+    color: whitesmoke;
 }
 .btn {
     position: absolute;
@@ -27,6 +29,12 @@ h1 {
     text-transform: uppercase;
     width: 15rem;
     padding: 1.5rem;
+}
+.split.left .btn:hover {
+    background-color: lightblue;
+}
+.split.right .btn:hover {
+    background-color: lightgreen;
 }
 .container {
     position: relative;
@@ -69,7 +77,18 @@ h1 {
     height: 100%;
     background-color: rgba(144, 238, 144, 0.6);
 }
-
+.hover-left .left{
+    width: 75%;
+}
+.hover-left .right {
+    width: 25%;
+}
+.hover-right .right{
+    width: 75%;
+}
+.hover-right .left {
+    width: 25%;
+}
 
 
 
